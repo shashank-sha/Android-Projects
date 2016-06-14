@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shashank.sha.BeforeMain2">
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Working Days in a Week"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#808080" />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Monday"
+        android:id="@+id/textViewMon"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:clickable="true"
+        android:textColor="#808080"/>
+
+    <ImageView
+        android:id="@+id/imgMonUnSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="37dp"
+        android:layout_toRightOf="@+id/textViewMon"
+        />
+
+    <ImageView
+        android:id="@+id/imgMonSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="37dp"
+        android:layout_toRightOf="@+id/textViewMon"
+        />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tuesday"
+        android:id="@+id/textViewTue"
+        android:layout_below="@+id/textViewMon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:textColor="#808080"/>
+
+    <ImageView
+        android:id="@+id/imgTuesUnSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/textViewMon"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewTue"
+        />
+
+    <ImageView
+        android:id="@+id/imgTuesSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/textViewMon"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewTue"
+        />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Wednesday"
+        android:id="@+id/textViewWed"
+        android:layout_below="@+id/textViewTue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:textColor="#808080"/>
+
+    <ImageView
+        android:id="@+id/imgWedUnSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/textViewTue"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewWed"
+        />
+
+    <ImageView
+        android:id="@+id/imgWedSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/textViewTue"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewWed"
+        />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Thursday"
+        android:id="@+id/textViewThurs"
+        android:layout_below="@+id/textViewWed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:textColor="#808080"/>
+
+    <ImageView
+        android:id="@+id/imgThursUnSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/textViewWed"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewThurs"
+        />
+    <ImageView
+        android:id="@+id/imgThursSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/textViewWed"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewThurs"
+        />
+
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Friday"
+        android:id="@+id/textViewFri"
+        android:layout_below="@+id/textViewThurs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:textColor="#808080"/>
+
+    <ImageView
+        android:id="@+id/imgFriUnSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/textViewThurs"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewFri"
+        />
+
+    <ImageView
+        android:id="@+id/imgFriSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/textViewThurs"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewFri"
+        />
+
+    <TextView
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Saturday"
+        android:id="@+id/textViewSat"
+        android:layout_below="@+id/textViewFri"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:textColor="#808080"/>
+
+    <ImageView
+        android:id="@+id/imgSatUnSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:src="@drawable/wrong"
+        android:layout_below="@+id/textViewFri"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewSat"
+        />
+
+    <ImageView
+        android:id="@+id/imgSatSet"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="visible"
+        android:src="@drawable/correct"
+        android:layout_below="@+id/textViewFri"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/textViewSat"
+        />
+
+
+    <Button
+        style="@android:style/TextAppearance.DeviceDefault.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/nextButton2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

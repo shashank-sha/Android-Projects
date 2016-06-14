@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sha</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_before_main1">BeforeMain1</string>
+    <string name="title_activity_before_main2">BeforeMain2</string>
+    <string name="title_activity_before_main3">BeforeMain3</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_spolash_screen">SpolashScreen</string>
+</resources>
